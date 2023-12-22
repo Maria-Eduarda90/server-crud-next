@@ -1,5 +1,6 @@
 import { sql } from "@vercel/postgres";
 import { AddForm } from "./components/add-form";
+import { DeleteForm } from "./components/delete-form";
 
 
 export default async function Home() {
@@ -15,6 +16,7 @@ export default async function Home() {
         {todos.map(todo => (
           <li key={todo.id}>
             {todo.text}
+            <DeleteForm id={todo.id} todo={todo.text} />
           </li>
         ))}
       </ul>
