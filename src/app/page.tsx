@@ -12,11 +12,13 @@ export default async function Home() {
 
       <AddForm />
 
-      <ul>
+      <ul className="w-3/6">
         {todos.map(todo => (
-          <li key={todo.id}>
-            {todo.text}
-            <DeleteForm id={todo.id} todo={todo.text} />
+          <li key={todo.id} className="bg-gray-100 text-gray-900 rounded p-1 mb-2">
+            <div className="flex justify-between items-center">
+              <p>{todo.text}</p>
+              <DeleteForm id={todo.id} todo={todo.text} />
+            </div>
           </li>
         ))}
       </ul>
