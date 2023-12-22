@@ -44,3 +44,9 @@ POSTGRES_DATABASE=
 <h1 align="center">
   <img alt="crud" title="#crud" src="img/projeto.png" />
 </h1>
+
+## documentação:
+
+https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations
+
+https://nextjs.org/blog/next-14
