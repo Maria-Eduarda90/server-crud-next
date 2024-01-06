@@ -21,7 +21,7 @@ bun dev
 - TypeScript
 - React
 - Next - versão apartir da 13
-- Tailwind
+- Tailwind css
 - Vercel
 - Sql
 
